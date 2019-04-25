@@ -1,0 +1,38 @@
+'additional_col' : [col("post_event_list"), col("post_evar26"),col('post_prop28'),col('post_prop1'),col('post_prop62')],
+			'events'	: [F.when(array_contains(split(col('post_event_list'),','),'255'), 'TDS').otherwise(0),
+                           F.when(array_contains(split(col('post_event_list'),','),'259'), 'TDC').otherwise(0),
+                           F.when(array_contains(split(col('post_event_list'),','),'216'), 'CCS').otherwise(0),
+                           F.when(array_contains(split(col('post_event_list'),','),'223'), 'CCE').otherwise(0),
+                           F.when(array_contains(split(col('post_event_list'),','),'256'), 'TDSM').otherwise(0),
+						   lit(0), #CBS
+						   lit(0), #RQS
+						   F.when((col('post_evar26') == 'linkedin'),'SOCL').otherwise(0),
+F.when((col('post_evar26') == 'imagem_indicando_chat_online'),'LVCS').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'20127'), 'DSS').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'20128'), 'DSC').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'230'), 'NDES').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'284'), 'MFS').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'291'), 'MFVV').otherwise(0),
+F.when((col('post_evar26').contains('compre_seu_mercedes-benz:seminovos_certified'')) | (col('post_evar26').contains(''nossos_veículos:seminovos_certified'')) | ,'NCCS').otherwise(0),
+F.when((col('post_evar26') == 'compre_seu_mercedes-benz:ofertas'),'OS').otherwise(0),
+F.when((col('post_evar26') == 'proprietários_de_veículos:mercedes-benz_collection'),'MBC').otherwise(0),
+F.when((col('post_evar26') == 'mundo_mercedes:notícia'),'NES').otherwise(0),
+F.when((col('post_evar26') == 'contato'),'CUS').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'293'), 'MOFS').otherwise(0),
+F.when(array_contains(split(col('post_event_list'),','),'20136'), 'GRFS').otherwise(0),
+       ]+ generic_events,
+'lead_col' : F.when((array_contains(split(col("CONVERSION_EVENTS"),","),"TDC") |) , 1).otherwise(0),
+'engaged_col' : F.when((generic_engaged_criteria | array_contains(split(col("CONVERSION_EVENTS"),","),'TDS')  | array_contains(split(col("CONVERSION_EVENTS"),","),'TDSM') | array_contains(split(col("CONVERSION_EVENTS"),","),'SOCL') |array_contains(split(col("CONVERSION_EVENTS"),","),'LVCS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'DSS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'DSC') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'NDES') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'MFS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'MFVV') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'NCCS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'OS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'MBC') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'NES') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'CUS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'MOFS') |
+array_contains(split(col("CONVERSION_EVENTS"),","),'GRFS') |
+),1).otherwise(0)

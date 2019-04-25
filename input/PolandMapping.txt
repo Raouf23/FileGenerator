@@ -1,0 +1,20 @@
+25	DSS	Dealer search start	NULL	1	NULL	post_event_list	event128
+25	DSC	Dealer search complete	NULL	1	NULL	post_event_list	event129
+25	NDES	NBA Dealer Enquiry Start	NULL	1	1	post_event_list	event76
+25	NDEC	NBA Dealer Enquiry Complete	1	NULL	NULL	post_event_list	event77
+25	MFS	Model Finder STARTED	NULL	1	NULL	post_event_list	event85
+25	MFVV	Model Finder Vehicle Viewed	NULL	1	NULL	post_event_list	event92
+25	PFS	Finance Product Finder Service	NULL	1	NULL	post_prop28	contains 'pf.daimler-financialservices.com/pf/'
+22	FC	Finance Calculator	NULL	1	NULL	post_eVar26	go-to-finance-calculator
+25	BCUC	Buy Certified Used Cars	NULL	1	NULL	post_eVar26	zakup_samochodu:samochody_używane
+25	EQCRS	EQC Registration Started	NULL	1	1	post_event_list	event220
+25	EQCRS	EQC Registration Complete	1	NULL	NULL	post_event_list	event228
+25	GRFS	General Request Form Start	NULL	1	1	post_event_list	event137
+25	GRFC	General Request Form Complete	1	NULL	NULL	post_event_list	event138
+25	ACCS	ACCS	NULL	1	NULL	post_prop28	contains ' configurator.mercedes-benz-accessories.com'
+25	CUS	Contact Us Start	NULL	1	NULL	post_eVar26	kontakt
+25	MOFS	Model Filter Selected	NULL	1	NULL	post_event_list	event94
+25	MMPS	Mercedes Me Portal Start	NULL	1	NULL	post_prop28	contains '/me.secure.mercedes-benz.com/wps/portal/mmp/'
+25	BDS	Brochure Download Start	NULL	1	NULL	post_eVar26	pobierz_broszurę
+25	NES	News & Events Start	NULL	1	NULL	post_prop1	passengercars:the-brand:news-and-events
+25	AFS	Available From Stock	NULL	1	NULL	post_eVar26	dostępne_od_ręki

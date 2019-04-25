@@ -1,0 +1,19 @@
+23	DSS	Dealer search start	NULL	1	NULL	post_event_list	event128
+23	DSC	Dealer search complete	NULL	1	NULL	post_event_list	event129
+23	NDES	NBA Dealer Enquiry Start	NULL	1	1	post_event_list	event76
+23	NDEC	NBA Dealer Enquiry Complete	1	NULL	NULL	post_event_list	event77
+23	BDS	Brochure Download Start	NULL	1	NULL	post_eVar26	contains 'brochure'
+23	PLD	PriceList Download	NULL	1	NULL	post_eVar26	price_list
+23	SUVS	Discover SUV Start	NULL	1	NULL	post_eVar26	our_vehicles:suvs
+23	UCSS	Used cars Search	NULL	1	NULL	post_eVar26	buy_your_mercedes-benz:used_vehicles
+23	SMS	Service & Maintainence	NULL	1	NULL	post_eVar26	vehicle_owner:service_and_maintenance
+23	OS	offers	NULL	1	NULL	post_eVar26	vehicle_owner:special_offer' or 'buy_your_mercedes-benz:promotions'
+23	CBS	Call back start	NULL	1	NULL	post_eVar26	call_back_request
+23	MOFS	Model Filter Selected	NULL	1	NULL	post_event_list	event94
+23	GRFS	General Request Form Start	NULL	1	1	post_event_list	event137
+23	GRFC	General Request Form Complete	1	NULL	NULL	post_event_list	event138
+23	ACCS	Accessories	NULL	1	NULL	post_prop28	contains ' https://configurator.mercedes-benz-accessories.com'
+23	NES	News & Events Start	NULL	1	NULL	post_prop1	passengercars:the-brand:news-and-events
+23	PFS	Finance Product Finder Service	NULL	1	NULL	post_eVar28	contains 'https://pf.daimler-financialservices.com/pf/'
+23	GCFS	General Request Contact Form Start	NULL	1	1	post_prop1	passengercars:content-pool:marketing-pool:forms:contact
+23	GCFC	General Request Contact Form Complete	1	NULL	NULL	post_prop1 	passengercars:content-pool:marketing-pool:forms:contact-thank

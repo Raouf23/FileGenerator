@@ -1,0 +1,23 @@
+22	DSS	Dealer search start	NULL	1	NULL	post_event_list	event128
+22	DSC	Dealer search complete	NULL	1	NULL	post_event_list	event129
+22	NDES	NBA Dealer Enquiry Start	NULL	1	1	post_event_list	event76
+22	NDEC	NBA Dealer Enquiry Complete	1	NULL	NULL	post_event_list	event77
+22	BD	Brochure Download 	NULL	1	NULL	post_eVar26	contains 'brochure'
+22	EQS	Discover EQ Start	NULL	1	NULL	post_eVar26	our_vehicles:eq
+22	SUVS	Discover SUV Start	NULL	1	NULL	post_eVar26	our_vehicles:suvs
+22	NCSS	New Cars Search	NULL	1	NULL	post_eVar26	buy_your_mercedes-benz:new_vehicles
+22	UCSS	Used cars Search	NULL	1	NULL	post_eVar26	buy_your_mercedes-benz:used_vehicles
+22	OS	offers	NULL	1	NULL	post_eVar26	vehicle_owner:special_offer' or 'buy_your_mercedes-benz:promotions'
+22	PFS	Finance Product Finder Service	NULL	1	NULL	post_eVar28	contains 'https://pf.daimler-financialservices.com/pf/'
+22	FC	Finance Calculator	NULL	1	NULL	post_eVar28	contains 'https://www.mercedes-benz-leasing.co.th/calculator'
+22	MBC	Mercedes benz Collection	NULL	1	NULL	post_eVar26	contains 'buy_your_mercedes-benz:collection'
+22	SMS	Service & Maintainence	NULL	1	NULL	post_eVar26	vehicle_owner:service_and_maintenance
+22	NES	News & Events Start	NULL	1	NULL	post_prop1	passengercars:the-brand:news-and-events
+22	PLD	PriceList Download	NULL	1	NULL	post_eVar26	download_price_list
+22	CUS	Contact Us Start	NULL	1	NULL	post_eVar26	contact
+22	MMPS	Mercedes Me Portal Start	NULL	1	NULL	post_prop28	contains '/me.secure.mercedes-benz.com/wps/portal/mmp/'
+22	MOFS	Model Filter Selected	NULL	1	NULL	post_event_list	event94
+22	GRFS	General Request Form Start	NULL	1	1	post_event_list	event137
+22	GRFC	General Request Form Complete	1	NULL	NULL	post_event_list	event138
+22	ACCS	ACCS	NULL	1	NULL	post_prop28	contains ' https://configurator.mercedes-benz-accessories.com'
+22	MSOS	My Star Offer Start	NULL	1	NULL	post_eVar26	mystar_offer

@@ -1,0 +1,17 @@
+16	LVCRS	Live Chat Requested	NULL	1	NULL	post_event_list	event132
+16	LVCS	Live Chat Started	NULL	1	NULL	post_event_list	event133
+16	LVCC	Live Chat Closed	NULL	1	NULL	post_event_list	event134
+16	DSS	Dealer search start	NULL	1	NULL	post_event_list	event128
+16	DSC	Dealer search complete	NULL	1	NULL	post_event_list	event129
+16	CUS	Contact Us Start	NULL	1	NULL	post_eVar26	contact or contact_us
+16	BD	Brochure Download	NULL	1	NULL	post_eVar26	download & brochure
+16	PLD	Price List Download	NULL	1	NULL	post_eVar26	download & price_list
+16	FC	Finance Calculator	NULL	1	NULL	post_eVar26	finance_calculator
+16	PFS	Finance Product Finder Service	NULL	1	NULL	post_prop28	contains 'pf.daimler-financialservices.com/pf/'
+16	OS	Offers Start	NULL	1	NULL	post_eVar26	buy_your_mercedes-benz:promotions
+16	SMS	Service and Maintenance Start	NULL	1	NULL	post_eVar26	vehicle_owner:service_and_maintenance
+16	CRS	Chat  Registration Show	NULL	1	1	post_prop1	chat_register_show
+16	CRC	Chat  Registration Completed	1	NULL	NULL	post_prop1	chat_register_submit
+16	ACCS	Accessories	NULL	1	NULL	post_prop28	contains 'configurator.mercedes-benz-accessories.com'
+16	BCUC	Buy Certified Used Cars	NULL	1	NULL	post_eVar26	buy_your_mercedes-benz:mercedes-benz_certified_pre-owned_vehicles
+16	EQS	Discover EQ Start	NULL	1	NULL	post_eVar26	our_vehicles:eq

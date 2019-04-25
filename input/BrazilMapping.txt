@@ -1,0 +1,13 @@
+24	LVCS	Live Chat Started	NULL	1	NULL	post_eVar26	imagem_indicando_chat_online
+24	DSS	Dealer search start	NULL	1	NULL	post_event_list	event128
+24	DSC	Dealer search complete	NULL	1	NULL	post_event_list	event129
+24	NDES	NBA Dealer Enquiry Start	NULL	1	NULL	post_event_list	event31
+24	MFS	Model Finder STARTED	NULL	1	NULL	post_event_list	event85
+24	MFVV	Model Finder Vehicle Viewed	NULL	1	NULL	post_event_list	event92
+24	NCCS	New Certified Cars Search	NULL	1	NULL	post_eVar26	compre_seu_mercedes-benz:seminovos_certified' or 'nossos_veículos:seminovos_certified'
+24	OS	offers	NULL	1	NULL	post_eVar26	compre_seu_mercedes-benz:ofertas
+24	MBC	Mercedes benz Collection	NULL	1	NULL	post_eVar26	proprietários_de_veículos:mercedes-benz_collection
+24	NES	News & Events Start	NULL	1	NULL	post_eVar26	mundo_mercedes:notícia
+24	CUS	Contact Us Start	NULL	1	NULL	post_eVar26	contato
+24	MOFS	Model Filter Selected	NULL	1	NULL	post_event_list	event94
+24	GRFS	General Request Form Start	NULL	1	1	post_event_list	event137
